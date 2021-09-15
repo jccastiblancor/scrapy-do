@@ -15,6 +15,7 @@ import ProjectList from './ProjectList';
 import JobList from './JobList';
 import About from './About';
 import WrongRoute from './WrongRoute';
+import Summary from './Summary';
 
 class ScrapyDoApp extends Component {
   render() {
@@ -29,6 +30,7 @@ class ScrapyDoApp extends Component {
             <Route exact path='/project-list' component={ProjectList} />
             <Route path='/job-list/:status' component={JobList} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/summary' component={Summary} />
             <Route component={WrongRoute} />
           </Switch>
         </div>

@@ -44,6 +44,9 @@ class ScrapyDoNav extends Component {
             <LinkContainer to="/job-list/completed">
               <Nav.Link><FaRegCheckSquare /> Completed Jobs</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/summary">
+              <Nav.Link><FaRegCheckSquare /> Summary</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
