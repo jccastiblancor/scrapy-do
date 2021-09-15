@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react'
 import {Client} from '@elastic/elasticsearch'
 
 const client = new Client({
-  node: 'http://37.61.219.29:9200',
+  node: '',
 });
 const Summary = () => {
 
